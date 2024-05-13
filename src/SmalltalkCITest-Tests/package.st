@@ -1,4 +1,4 @@
 Package {
-	#'squeak_changestamp' : true,
-	#name : #'SmalltalkCITest-Tests'
+	#name : #'SmalltalkCITest-Tests',
+	#'squeak_changestamp' : true
 }

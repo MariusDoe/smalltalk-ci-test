@@ -5,6 +5,14 @@ Class {
 }
 
 {
+	#category : #failures,
+	#'squeak_changestamp' : 'mad 5/13/2024 22:39'
+}
+SomeClassTest >> expectedFailures [
+	^ {#testCalculateFail}
+]
+
+{
 	#category : #tests,
 	#'squeak_changestamp' : 'mad 5/13/2024 20:45'
 }
