@@ -1,0 +1,22 @@
+[
+	SquotTonelMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfSmalltalkCITest'
+		},
+		#path : FSAbsolutePath [
+			'src'
+		]
+	},
+	SquotTonelMapper {
+		#package : MCPackage {
+			#name : 'SmalltalkCITest-Core'
+		},
+		#path : @4
+	},
+	SquotTonelMapper {
+		#package : MCPackage {
+			#name : 'SmalltalkCITest-Tests'
+		},
+		#path : @4
+	}
+]
