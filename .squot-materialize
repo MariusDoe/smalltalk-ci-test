@@ -1,4 +1,11 @@
 [
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'src',
+			'.properties'
+		],
+		#encoding : 'TXT'
+	},
 	SquotTonelMapper {
 		#package : MCPackage {
 			#name : 'BaselineOfSmalltalkCITest'
@@ -21,22 +28,16 @@
 		],
 		#encoding : 'TXT'
 	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.properties'
-		],
-		#encoding : 'TXT'
-	},
 	SquotTonelMapper {
 		#package : MCPackage {
 			#name : 'SmalltalkCITest-Core'
 		},
-		#path : @4
+		#path : @6
 	},
 	SquotTonelMapper {
 		#package : MCPackage {
 			#name : 'SmalltalkCITest-Tests'
 		},
-		#path : @4
+		#path : @6
 	}
 ]
