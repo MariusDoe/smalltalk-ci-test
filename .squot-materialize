@@ -9,6 +9,12 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
+			'.smalltalk.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
 			'.github',
 			'workflows',
 			'ci.yml'
