@@ -21,6 +21,12 @@
 		],
 		#encoding : 'TXT'
 	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.properties'
+		],
+		#encoding : 'TXT'
+	},
 	SquotTonelMapper {
 		#package : MCPackage {
 			#name : 'SmalltalkCITest-Core'
